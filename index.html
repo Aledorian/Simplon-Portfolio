@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Portfolio</title>
+  </head>
+
+  <body id="haut">
+  <!-- Debut navbar -->
+    <nav id="navbar">
+      <ul>
+        <li>
+          <a href="#home">Home</a>
+        </li>
+        <li>
+        <a href="#about">About</a>
+      </li>
+      <li>
+        <a href="#portfolio">Portfolio</a>
+      </li>
+      <li>
+        <a href="#contact">Contact</a>
+      </li>
+      </ul>
+    </nav>
+    <!-- Fin navbar -->
+
+    <!-- Debut home-->
+    <div id="home">
+      <h1>Bienvenue, je suis LEGRAND Aledorian, je suis un apprenti web developper et ceci est mon portfolio.
+      </h1>
+    </div>
+    <!-- Fin home -->
+
+    <br> <br>
+
+    <!-- Debut about -->
+    <div id="about">
+      <div id="photoAbout">
+        <img src="IMAGES/moi.jpg" alt="" />
+      </div>
+      <p id="infoAbout">
+        Je me présente je suis LEGRAND Aledorian, j'ai commencer le codage depuis Novembre 2016, je sais utilisé le langage HTML ainsi que le CSS. En dehors de ce domaine de compétence je comprend et parle l'anglais. En dehors de mes heures de travail, je suis passioné par tout ce qui se rapproche du domaine du numérique, des jeux videos, et de nombeux autres domaines comme le cinéma ou la musique </p>
+    </div>
+    <!-- Fin about -->
+
+    <br><br>
+
+    <!-- Debut portfolio -->
+    <div id="portfolio">
+      <div id="visage">
+        <a href="PAGES/Visage/index.html" target="_blank">
+        <img src="IMAGES/visage.PNG" alt="Exercice création d'un visage avec des divs" id="imgVisage"/>
+        </a>
+        <p>
+          Exercice ou nous devions créer un visage a partir de div, cliquer sur le visage pour le voir en plus grand.
+        </p>
+      </div>
+
+      <br><br>
+
+      <div id="challenge">
+        <a href="PAGES/Site Final/index.html" target="_blank">
+        <img src="IMAGES/site.PNG" alt="Challenge création site vitrine" id="imgChallenge"/>
+        </a>
+        <p>
+          Création d'un site vitrine de quatres pages pour une jeune fleuriste, cliquer sur l'image pour acceder au site.
+        </p>
+      </div>
+      <div id="faux1">
+        <a href="">
+        <img src="IMAGES/background1.png" alt=""/ id="imgFaux1">
+        </a>
+        <p>
+          Trompe oeil pour remplacer exo manquant numero 1, cliquer sur l'image pour revenir au début
+        </p>
+      </div>
+      <div id="faux2">
+        <a href="">
+        <img src="IMAGES/flower1.jpg" alt=""/ id="imgFaux2">
+        </a>
+        <p>
+          Trompe oeil pour remplacer exo manquant numero 2, cliquer sur l'image pour revenir au début
+        </p>
+      </div>
+    </div>
+    <!-- Fin portfolio -->
+
+    <br><br>
+
+    <!-- Debut contact -->
+    <div id="contact">
+      <!-- Debut formulaire -->
+      <form method="post" action="traitement.php">
+        <label for="nom">Nom</label>
+        <br>
+        <input type="text" name="nom" class="formReponse" id="nom">
+
+        <br><br> <!-- double <br> = espace entre label -->
+        <label for="prenom">Prénom</label>
+        <br>
+        <input type="text" name="prenom" class="formReponse" id="prenom">
+
+        <br><br>
+        <label for="tel">Tel.</label>
+        <br>
+        <input type="text" name="tel" class="formReponse" id="tel">
+
+        <br><br>
+        <label for="mail">Mail</label>
+        <br>
+        <input type="text" name="mail" class="formReponse" id="mail">
+
+        <br><br>
+        <label for="message">Message</label>
+        <br>
+        <textarea name="message" class="formReponse" id="message">
+        </textarea>
+
+        <br><br>
+        <input type="image" name="send" src="IMAGES/Envoyer.png" id="btnEnvoyer">
+      </form>
+      <!-- Fin formulaire -->
+      <div id="infoContact">
+        <ul>
+          <li>Tel : 07 70 45 56 05</li>
+          <li>Mail : aledorianlegrand@gmail.com</li>
+          <li>Adresse : 40 rue du Bras d'or <br> 62200 Boulogne sur mer</li>
+        </ul>
+      </div>
+    </div>
+    <!-- Fin contact -->
+l    <footer>
+      <div id="bandeauFooter">
+        <p>©copyright A. LEGRAND</p>
+        <a href="index.html">Retourner en haut</a>
+        <div id="btnFacebook">
+          <a href="" target="_blank">
+          <img src="IMAGES/logo facebook.png" alt="logo facebook sphérique" id="imgFacebook"/>
+          </a>
+        </div>
+        <div id="btnTwitter">
+          <a href="" target="_blank">
+          <img src="IMAGES/logo twitter.png" alt="logo twitter sphérique" id="imgTwitter"/>
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
